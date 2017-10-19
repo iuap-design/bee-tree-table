@@ -1,10 +1,10 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { Con, Row, Col } from 'bee-layout';
 import Tree from 'bee-tree';
 import TableShow from './TableShow';
 import TableShowPaga from './TableShowPaga';
 import TableShowSearch from './TableShowSearch';
-
+import PropTypes from 'prop-types';
 
 const propTypes = {
     columns: PropTypes.array,

@@ -1,12 +1,11 @@
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { Con, Row, Col } from 'bee-layout';
 import Table from 'bee-table';
 import { dataInfo } from './data';
 import Pagination from 'bee-pagination';
 import Search from "./Search";
-
-
+import PropTypes from 'prop-types';
 
 const defaultProps = {
     defaultColumn: []

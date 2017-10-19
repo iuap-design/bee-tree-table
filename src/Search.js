@@ -1,5 +1,5 @@
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { Con, Row, Col } from 'bee-layout';
 import Table from 'bee-table';
 import { dataInfo } from './data';
@@ -7,7 +7,7 @@ import Pagination from 'bee-pagination';
 import Icon from "bee-icon";
 import InputGroup from 'bee-input-group';
 import FormControl from 'bee-form-control';
-
+import PropTypes from 'prop-types';
 
 class Search extends Component {
     state = {

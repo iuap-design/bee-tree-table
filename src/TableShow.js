@@ -1,9 +1,9 @@
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { Con, Row, Col } from 'bee-layout';
 import Table from 'bee-table';
 import { dataInfo } from './data';
-
+import PropTypes from 'prop-types';
 
 const defaultProps = {
     dataSource: [],
